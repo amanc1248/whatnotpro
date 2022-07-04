@@ -1,0 +1,13 @@
+.liveScreen{
+    display: flex;
+    justify-content: space-between;
+    height: 86vh;
+}
+.actionProducts__div,.chat__div{
+    width: 30%;
+}
+.liveVideo__div{
+    width: 40%;
+    border-left: 1px solid #f4f4f452;
+    border-right: 1px solid #f4f4f452;
+}
