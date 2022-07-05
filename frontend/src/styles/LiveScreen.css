@@ -169,3 +169,15 @@ color: rgba(255, 255, 255, 0.905);
     padding: 5px 8px;
     font-size: 14px;
 }
+.share__video__secondpart{
+    
+    display: flex;
+    justify-content: end;
+    /* justify-content: space-around; */
+}
+.fb_image{
+    margin: 0 12px;
+}
+.share_to_text{font-size: 15px;
+    margin-right: 20px;
+}

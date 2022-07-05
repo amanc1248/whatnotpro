@@ -34,7 +34,26 @@ function LiveVideoUpperPart() {
           <div className="share__video__link">whatnot.com/live/eb6...</div>
           <div className="copy__button">Copy</div>
         </div>
-        <div className="share__video__secondpart">secondpart</div>
+        <br />
+        <div className="share__video__secondpart">
+          <span className="share_to_text">Share to</span>
+          <img
+            src="https://www.whatnot.com/assets/19f4c399.svg"
+            alt="whatsapp"
+            height="25px"
+          />
+          <img
+            src="https://www.whatnot.com/assets/a3d32626.svg"
+            alt="fb"
+            height="25px"
+            className="fb_image"
+          />
+          <img
+            src="https://www.whatnot.com/assets/9d4b59da.svg"
+            alt="twitter"
+            height="25px"
+          />
+        </div>
       </div>
     </div>
   );
