@@ -142,6 +142,7 @@ function AskQuestion() {
               </div>
               <div className="question__likes">
                 <ThumbUpIcon className="thumps__up__icon"></ThumbUpIcon>
+                <span className="likeCount"> 12 </span>
               </div>
             </div>
           );

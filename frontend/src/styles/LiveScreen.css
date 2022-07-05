@@ -8,6 +8,7 @@
 .actionProducts__div,.chat__div{
     width: 30%;
     padding: 20px 20px;
+    height: 100%;
 }
 .liveVideo__div{
     width: 40%;
@@ -62,7 +63,7 @@
     flex-direction: column;
     text-align: left;
     overflow-y: scroll;
-    height: 450px;
+    height: 48vh;
    
 }
 .total__products__count{
@@ -184,8 +185,9 @@ color: rgba(255, 255, 255, 0.905);
 .liveVideo__lowerpart{
     display: flex;
     justify-content: space-between;
-    margin:55%  18% 0  21%;
+    margin:42%  18% 0  21%;
     font-family: 'Poppins', sans-serif ;
+    align-items: flex-end;
 
 }
 .lower__rightdiv, .lower__leftdiv{

@@ -10,6 +10,7 @@ function LiveVideo() {
           src="https://res.cloudinary.com/proudposhak-com/image/upload/v1656932744/aestheticproject/livevideo_display_image_yhdcbt.jpg"
           alt="livevideo"
           width="350px"
+          height="550px"
         />
       </div>
       <LiveVideoUpperPart></LiveVideoUpperPart>

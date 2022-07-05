@@ -4,9 +4,10 @@
 
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+/* justify-content: space-between; */
 }
 .chat__two__buttons{
+    margin-top: 15px;
 display: flex;
 justify-content: space-evenly;
 }
@@ -15,11 +16,11 @@ justify-content: space-evenly;
     cursor: pointer;
 }
 .chat__askanything__content{
-    height: 100%;
+    height: 90%;
 }
 /* just chat styles */
 .justChat__div{
-    height: 98%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,4 +70,8 @@ justify-content: space-evenly;
 .thumps__up__icon{
     font-size: smaller !important;
     color: aqua;
+    cursor: pointer;
+}
+.likeCount{
+    font-size: 10px;
 }
