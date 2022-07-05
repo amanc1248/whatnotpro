@@ -21,7 +21,21 @@ function LiveVideoUpperPart() {
         <div className="followers__div">10,692 Followers</div>
         <div className="follow__button">Follow</div>
       </div>
-      <div className="share__video__div">Share video , copy link</div>
+      <div className="share__video__div">
+        <div className="share__video__firstpart">
+          <div className="livestreamers">
+            <img
+              src="https://www.whatnot.com/assets/a3d9fdd7.svg"
+              alt="livestreams"
+              height="20px"
+            />
+            <div className="numberof__livestreamers">210</div>
+          </div>
+          <div className="share__video__link">whatnot.com/live/eb6...</div>
+          <div className="copy__button">Copy</div>
+        </div>
+        <div className="share__video__secondpart">secondpart</div>
+      </div>
     </div>
   );
 }
