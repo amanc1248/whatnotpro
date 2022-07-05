@@ -14,3 +14,43 @@ justify-content: space-evenly;
     font-size: 14px;
     cursor: pointer;
 }
+.chat__askanything__content{
+    height: 100%;
+}
+/* just chat styles */
+.justChat__div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chat__messages{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.individual__message{
+    display: flex;
+    text-align: left;
+    padding: 6.5px 0;
+
+}
+.username__image{
+    border-radius: 50%;
+    height: 20px;
+    padding-right: 10px;
+}
+.username__name{
+    font-size: 12px;
+    font-weight: 800;
+}
+.user__message{
+    font-size: 12px;
+
+}
+.name__and__message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
