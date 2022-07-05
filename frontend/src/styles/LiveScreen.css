@@ -88,7 +88,7 @@
 /* livevideo styles */
 .background__video{
     position: absolute;
-    margin-left: 8.5%;
+    margin-left: 7.5%;
     margin-top: 1.5%;
 }
 .liveVideo__upperpart{
@@ -180,4 +180,116 @@ color: rgba(255, 255, 255, 0.905);
 }
 .share_to_text{font-size: 15px;
     margin-right: 20px;
+}
+.liveVideo__lowerpart{
+    display: flex;
+    justify-content: space-between;
+    margin:55%  18% 0  21%;
+    font-family: 'Poppins', sans-serif ;
+
+}
+.lower__rightdiv, .lower__leftdiv{
+    z-index: 1;
+}
+.lower__leftdiv{
+    text-align: left;
+}
+.user__winning{
+    background-color: #24232acc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 4px    ;
+    align-items: center;
+}
+.user__img{
+    border-radius: 50%;
+}
+.username{
+    font-size: 11px;
+    padding: 0 5px;
+}
+.iswinning_text{
+    color: #07B188;
+    font-size: 11px;
+    font-weight: 600;
+}
+.product__auction{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.shipping__and__tax__text{
+    color: #1F89D4;
+    font-size: 15px;
+}
+.volume__button{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.376) ;
+    border-radius: 50%;
+    padding: 9px 3px;
+    text-align: center;
+}
+.pay__button{
+    margin: 10px 0;
+    background-color:rgba(0, 0, 0, 0.376) ;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 9px 3px;
+}
+.pay__button__inner{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 40%;
+    /* width: min-content; */
+    padding: 2px 5px;
+}
+.pay__text{
+    font-size: 12px;
+    font-weight: 600;
+}
+.auction__price{
+    padding: 3px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.time__reamaining{
+    color: red;
+    font-weight: 400;
+}
+
+.lower__part__buttons{
+    display: flex;
+    justify-content: space-between;
+    margin:0%  18% 0  21%;
+}
+.custome__button{
+    z-index: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 31%;
+
+}
+.bid__button{
+    z-index: 1;
+    background-color: #FFF351;
+    color: black;
+    border-radius: 30px;
+    width: 51%;
+
+
+}
+.custome__button, .bid__button{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif ;
+
 }
