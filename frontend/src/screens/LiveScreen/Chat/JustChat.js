@@ -127,7 +127,7 @@ function JustChat() {
       <div className="chat__messages">
         {messages.map((message) => {
           return (
-            <div key={message.name} className="individual__message">
+            <div key={message.name} className="individual__message__user">
               <img
                 src={message.image}
                 alt={message.name}
@@ -141,8 +141,12 @@ function JustChat() {
           );
         })}
       </div>
-      <div className="chat__input">
-        <input type="text" />
+      <div>
+        <input
+          className="chat__input"
+          type="text"
+          placeholder="Say something"
+        />
       </div>
     </div>
   );
