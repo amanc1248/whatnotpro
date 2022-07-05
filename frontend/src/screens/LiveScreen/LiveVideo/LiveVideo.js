@@ -1,4 +1,5 @@
 import React from "react";
+import LiveVideoUpperPart from "./LiveVideoUpperPart";
 
 function LiveVideo() {
   return (
@@ -9,6 +10,7 @@ function LiveVideo() {
           alt="livevideo"
         />
       </div>
+      <LiveVideoUpperPart></LiveVideoUpperPart>
     </div>
   );
 }

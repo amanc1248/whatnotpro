@@ -86,3 +86,52 @@
 }
 
 /* livevideo styles */
+.background__video{
+    position: absolute;
+    margin-left: 8.5%;
+    margin-top: 1.5%;
+}
+.liveVideo__upperpart{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif ;
+}
+.user__details__div{
+    text-align: left;
+}
+.share__video__div{
+    text-align: right;
+}
+.userimg__name{
+    display: flex;
+    margin-bottom: 8px;
+}
+.user__image{
+    border-radius: 50%;
+    padding-right: 8px;
+}
+
+.ratings__div, .followers__div{
+font-size: 11px;
+font-weight: 600;
+color: rgba(255, 255, 255, 0.905);
+}
+.ratings__div{
+    padding: 6px 0;
+}
+.followers__div{
+    padding-bottom: 8px;
+}
+.rating__text{
+    padding-left: 7px;
+}
+
+.follow__button{
+    background-color: #FFF351;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    max-width: max-content;
+    padding: 4px 16px;
+    font-size: 13px;
+}
