@@ -15,6 +15,7 @@
     border-left: 1px solid #f4f4f452;
     border-right: 1px solid #f4f4f452;
     padding: 20px 10px;
+    position: relative;
 
 }
 /* livevideo styles */
@@ -88,9 +89,18 @@
 
 /* livevideo styles */
 .background__video{
-    position: absolute;
-    margin-left: 7.5%;
-    margin-top: 1.5%;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 320px;
+  background-image: url("https://res.cloudinary.com/proudposhak-com/image/upload/v1656932744/aestheticproject/livevideo_display_image_yhdcbt.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding:0 15px ;
 }
 .liveVideo__upperpart{
     display: flex;
@@ -185,9 +195,11 @@ color: rgba(255, 255, 255, 0.905);
 .liveVideo__lowerpart{
     display: flex;
     justify-content: space-between;
-    margin:42%  18% 0  21%;
     font-family: 'Poppins', sans-serif ;
     align-items: flex-end;
+    margin-top:99%;
+    
+ 
 
 }
 .lower__rightdiv, .lower__leftdiv{
@@ -196,6 +208,7 @@ color: rgba(255, 255, 255, 0.905);
 .lower__leftdiv{
     text-align: left;
 }
+
 .user__winning{
     background-color: #24232acc;
     border-radius: 30px;
@@ -269,7 +282,6 @@ color: rgba(255, 255, 255, 0.905);
 .lower__part__buttons{
     display: flex;
     justify-content: space-between;
-    margin:0%  18% 0  21%;
 }
 .custome__button{
     z-index: 1;
