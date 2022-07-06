@@ -95,8 +95,8 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  height: 550px;
-  width: 320px;
+  height:90%;
+  width: 55%;
   background-image: url("https://res.cloudinary.com/proudposhak-com/image/upload/v1656932744/aestheticproject/livevideo_display_image_yhdcbt.jpg");
 background-repeat: no-repeat;
 background-size: cover;
@@ -110,6 +110,7 @@ padding:0 15px ;
 }
 .user__details__div{
     text-align: left;
+    z-index: 1;
 }
 .share__video__div{
     text-align: right;
