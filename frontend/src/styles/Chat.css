@@ -13,6 +13,7 @@ justify-content: space-evenly;
 }
 .chat__button, .askAnything__button{
     font-size: 14px;
+    font-weight: 300;
     cursor: pointer;
 }
 .chat__askanything__content{
@@ -74,4 +75,7 @@ justify-content: space-evenly;
 }
 .likeCount{
     font-size: 10px;
+}
+.active__chat__button{
+    font-weight: 800;
 }

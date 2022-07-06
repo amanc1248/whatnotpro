@@ -8,13 +8,6 @@ function LiveVideo() {
       <LiveVideoUpperPart></LiveVideoUpperPart>
 
       <div className="background__video">
-        {/* <img
-          src="https://res.cloudinary.com/proudposhak-com/image/upload/v1656932744/aestheticproject/livevideo_display_image_yhdcbt.jpg"
-          alt="livevideo"
-          width="350px"
-          height="550px"
-          className=""
-        /> */}
         <LiveVideoLowerPart></LiveVideoLowerPart>
       </div>
     </div>
