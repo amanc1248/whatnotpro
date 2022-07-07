@@ -45,7 +45,7 @@ justify-content: space-evenly;
 .username__image{
     border-radius: 50%;
     height: 20px;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 .username__name{
     font-size: 12px;

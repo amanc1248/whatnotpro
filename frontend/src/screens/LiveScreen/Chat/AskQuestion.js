@@ -3,123 +3,81 @@ import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 const messages = [
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "agod6as",
-    message: "Lets goo",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "agod6as",
-    message: "Lets goo",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "agod6as",
-    message: "What was the deal for $30? Sorry I’m driving 😂",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "kittietorres",
-    message: "joined 👋",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE0OTU5MDQvNmQyYzQ2ODktMzEzYy00M2UwLTg4OTMtNDY1ODMzYWQxMTliLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "dafunkyhomosapien1",
     message: "left",
+    likeCount: 12,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE5ODY4NjUvODc2NzAxNDItZTI3ZC00YWUwLWI0MjEtMDVkYTI4OTQ3ZTUyLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "drewpatel123",
     message: "Yea I’m on here too much 😂",
+    likeCount: 11,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIyMDQwNjIvNmM4MTg4ODktODEwMC00NGRkLTg1NzQtOTA0MTJiY2Y4YWRhLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "shanemojo",
     message: "No bulk",
+    likeCount: 8,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIxNTE3MDgvYTFjNjc4YzAtYmYwOC00NzMzLTlhZDYtMDQxMmJhZjFmMzhkLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "kittietorres",
     message: "cool",
+    likeCount: 5,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIwODc1NTIvM2ZmZjNiY2QtZjVkNS00OTU3LTk5N2QtOTMxZjVmOTk5NTNjLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "dafunkyhomosapien1",
     message: "Left 2nd from the front",
+    likeCount: 4,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE5NTcwMDkvM2UzOTIwYWItOWQyMC00NDRiLTg4MDctODg1MDY0MmU3NDlkLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "louskilla🎮",
     message: "Morning chat welcome in",
+    likeCount: 3,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
     message: "Lets goo",
+    likeCount: 2,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
     message: "Lets goo",
+    likeCount: 2,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
     message: "What was the deal for $30? Sorry I’m driving 😂",
+    likeCount: 2,
   },
+
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "kittietorres",
-    message: "joined 👋",
+    name: "agod6as",
+    message: "Lets goo",
+    likeCount: 1,
   },
   {
     image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "dafunkyhomosapien1",
-    message: "left",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "drewpatel123",
-    message: "Yea I’m on here too much 😂",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "shanemojo",
-    message: "No bulk",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "kittietorres",
-    message: "cool",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "dafunkyhomosapien1",
-    message: "Left 2nd from the front",
-  },
-  {
-    image:
-      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    name: "louskilla🎮",
-    message: "Morning chat welcome in",
+      "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4Mzc1NzIvZjJhMzA0MmQtNWY1Yy00ZDUwLTk2MzktMWUxMTE4MmE4YjJhLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    name: "geohde",
+    message: "Better percentage than the alt art dialga lol",
+    likeCount: 1,
   },
 ];
 function AskQuestion() {
@@ -142,7 +100,7 @@ function AskQuestion() {
               </div>
               <div className="question__likes">
                 <ThumbUpIcon className="thumps__up__icon"></ThumbUpIcon>
-                <span className="likeCount"> 12 </span>
+                <span className="likeCount"> {message.likeCount} </span>
               </div>
             </div>
           );
