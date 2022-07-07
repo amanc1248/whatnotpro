@@ -5,63 +5,63 @@ const messages = [
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE0OTU5MDQvNmQyYzQ2ODktMzEzYy00M2UwLTg4OTMtNDY1ODMzYWQxMTliLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "dafunkyhomosapien1",
-    message: "left",
+    message: "We need the XL size",
     likeCount: 12,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE5ODY4NjUvODc2NzAxNDItZTI3ZC00YWUwLWI0MjEtMDVkYTI4OTQ3ZTUyLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "drewpatel123",
-    message: "Yea I’m on here too much 😂",
+    message: "How many times do you go live in a day?",
     likeCount: 11,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIyMDQwNjIvNmM4MTg4ODktODEwMC00NGRkLTg1NzQtOTA0MTJiY2Y4YWRhLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "shanemojo",
-    message: "No bulk",
+    message: "Do you have Elon Mush printed XL T-shirts?",
     likeCount: 8,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIxNTE3MDgvYTFjNjc4YzAtYmYwOC00NzMzLTlhZDYtMDQxMmJhZjFmMzhkLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "kittietorres",
-    message: "cool",
+    message: "Need small size plain black T-shirt?",
     likeCount: 5,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzIwODc1NTIvM2ZmZjNiY2QtZjVkNS00OTU3LTk5N2QtOTMxZjVmOTk5NTNjLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "dafunkyhomosapien1",
-    message: "Left 2nd from the front",
+    message: "Go with the right one, highly needed",
     likeCount: 4,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE5NTcwMDkvM2UzOTIwYWItOWQyMC00NDRiLTg4MDctODg1MDY0MmU3NDlkLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "louskilla🎮",
-    message: "Morning chat welcome in",
+    message: "Need you website link",
     likeCount: 3,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
-    message: "Lets goo",
+    message: "Lets get started bro",
     likeCount: 2,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
-    message: "Lets goo",
+    message: "Are you coming live tonight?",
     likeCount: 2,
   },
   {
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzE4ODQwMTIvY2UxNjYxNDQtMWI0Zi00NGVhLWIxMWEtZGQ4ZDc4NmVkNDMxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0LCJoZWlnaHQiOjI0LCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     name: "agod6as",
-    message: "What was the deal for $30? Sorry I’m driving 😂",
+    message: "What was the deal for $30?",
     likeCount: 2,
   },
 
@@ -69,7 +69,7 @@ const messages = [
     image:
       "https://images.whatnot.com/eyJidWNrZXQiOiJ3aGF0bm90LWltYWdlcyIsImtleSI6InVzZXJzLzU1Mzg1NS9iNjE5ODRiOS1lMmM2LTQwMWMtYWY3NC05MDg3NDliMGY2N2IuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjQsImhlaWdodCI6MjQsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
     name: "agod6as",
-    message: "Lets goo",
+    message: "Are you up tonight?",
     likeCount: 1,
   },
   {
